@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer base {
+    pre {
+        @apply bg-black text-orange-300 rounded-md;
+    }
+}
